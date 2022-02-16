@@ -23,10 +23,10 @@ These scripts are created to ease the so many steps to build [PowerMonkey](https
 
 ### Prerequisite
 1. Windows 10 build 17063 and newer
-2. Visual Studio 2019, with C++ workload installed.
+2. Visual Studio 2022, with C++ workload installed.
 
 ### Step 1
-In a command prompt,
+In a command prompt (Use `x64 Native Tools Command Prompt for VS 2022` to get builds working),
 ```
 git clone https://github.com/awyl/Build-PowerMonkey.git
 ```
@@ -48,7 +48,7 @@ build.bat
 ```
 
 ### Step 5
-Copy the content of `EFI` folder to the folder of same name in your EFI partition.  You can also copy the folder to an FAT32 formatted usb stick. If you use usb stick, you should replace `fs0` in `startup.nsh` to `fs1`.
+Copy the content of `EFI` folder to the folder of same name in your EFI partition.  You can also copy the folder to an FAT32 formatted usb stick.
 
 ### Step 6
 
